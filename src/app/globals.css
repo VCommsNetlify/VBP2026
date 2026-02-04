@@ -88,10 +88,11 @@ html {
 }
 
 .bg-main {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5)), url("/ignite-microsite-BG.png");
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.5)), url("/02032026-VBP-microsite-background.png"); */
+    background-image: url("/02032026-VBP-microsite-background.png");
     background-repeat: repeat;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     min-height: 100vh;
 }
 

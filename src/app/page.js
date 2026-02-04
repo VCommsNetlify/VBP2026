@@ -56,24 +56,28 @@ export default function Home() {
 
                  <div className="relative w-full h-24 sm:h-28 md:h-32 mx-auto mt-8 md:mt-12">
                         <Image
-                            src={"/ignite-logo-MAIN.png"}
+                            src={"/vbusiness.png"}
                             alt="V Business"
                             fill={true}
                             className="object-contain glowfilter object-bottom md:object-center"
                         />
                     </div>
 
-                <section id="contact-us" className="mx-auto container py-16 text-white font-medium">
-                    <p className="px-4 font-articulat md:px-0 py-4 text-[#0026b3] md:py-8 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
+                <section id="contact-us" className="mx-auto container py-16 text-[#004d84] font-medium">
+                    <p className="px-4 md:px-0 py-3 md:py-6 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
                         {" "}
-                        The new year brings countless new opportunities for everyone to grow, lead, and succeed.{" "}
-                         <br /><br />
-                        <span className=" font-bold font-articulat text-[#ec1900]">IGNITE 2026</span>  is YOUR chance to start strong — by renewing 
-                        your commitment to your dreams and channeling all this energy into consistent action.
+                        You have the power to change your life. The question is: where do you start?
                     </p>
-                   
-                   <h4 className="text-center font-articulat font-bold mt-32 text-[#9514a7] text-xl md:text-3xl font-avheavy px-4">
-                        Make sure to tag and follow us on social media!
+                    <p className="px-4 md:px-0 py-3 md:py-6 text-lg md:text-3xl lg:text-4xl max-w-prose md:max-w-[40ch] mx-auto text-center leading-normal md:leading-loose lg:leading-normal">
+                        Start here with <span className="font-bold">V Business Presentation!</span> This is the right
+                        place for you to discover the world of network marketing and explore its unlimited
+                        possibilities-The V way.
+                    </p>
+                    <h3 className="text-2xl md:text-5xl py-4 text-[#007377] text-center font-bold font-avheavy">
+                        Let{"'"}s unleash your limitless potential!
+                    </h3>
+                    <h4 className="text-center text-[#004d84] font-bold mt-6 text-xl md:text-3xl font-avheavy">
+                        Follow us and tag us on social:
                     </h4>
 
                     <div className="flex flex-row items-center justify-center gap-6 md:gap-8 py-4">
@@ -83,8 +87,8 @@ export default function Home() {
                             target="_blank" 
                             className="flex items-center gap-2"
                         >
-                            <FaFacebook className="text-2xl md:text-3xl text-[#9514a7]" /> 
-                            <span className="text-[#9514a7] italic text-base md:text-lg">@thevofficial</span>
+                            <FaFacebook className="text-2xl md:text-3xl text-[#004d84]" /> 
+                            <span className="text-[#004d84] italic text-base md:text-lg">@thevofficial</span>
                         </Link>
 
                         {/* Instagram: Icon only */}
@@ -93,7 +97,7 @@ export default function Home() {
                             target="_blank"
                             className="flex items-center"
                         >
-                            <AiFillInstagram className="text-3xl md:text-4xl text-[#9514a7]" /> 
+                            <AiFillInstagram className="text-3xl md:text-4xl text-[#004d84]" /> 
                         </Link>
 
                         {/* Twitter/X: Icon and Text side-by-side */}
@@ -102,12 +106,12 @@ export default function Home() {
                             target="_blank"
                             className="flex items-center gap-2"
                         >
-                            <AiFillTwitterCircle className="text-2xl md:text-3xl text-[#9514a7]" /> 
-                            <span className="text-[#9514a7] italic text-base md:text-lg">@thev_official</span>
+                            <AiFillTwitterCircle className="text-2xl md:text-3xl text-[#004d84]" /> 
+                            <span className="text-[#004d84] italic text-base md:text-lg">@thev_official</span>
                         </Link>
                     </div>
-                    <h2 className="font-bold font-avheavy text-[#661e70] text-center text-xl sm:text-2xl md:text-4xl py-4">
-                        #IGNITE2026
+                    <h2 className="font-bold font-avheavy text-[#004d84] text-center text-xl sm:text-2xl md:text-4xl py-4">
+                        #VBP2026
                     </h2>
                 </section>
 
