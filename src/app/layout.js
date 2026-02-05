@@ -10,13 +10,13 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body className={` antialiased`}>
-                <Script src="https://www.googletagmanager.com/gtag/js?id=G-CX4WJMZ8ZQ" />
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-L9X0DE213H" />
                     <Script id="google-analytics" strategy="afterInteractive">
                     {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
-                        gtag('config', 'G-CX4WJMZ8ZQ');
+                        gtag('config', 'G-L9X0DE213H');
                     `}
                     </Script>
                 {children}
