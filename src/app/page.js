@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import FAQ from "@/sections/FAQ";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
-import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 import classNames from "classnames";
@@ -15,6 +15,7 @@ export default function Home() {
 
     return (
         <div>
+            
             <Navigation />
             <main className="bg-main bg-no-repeat bg-cover w-full min-h-screen pt-0 md:pt-8 pb-8">
                 <section className="w-full md:w-4/5 lg:w-3/5 mx-auto container py-4">
@@ -26,7 +27,9 @@ export default function Home() {
                                 data-player="hXGs3fyvO"
                                 data-embed="default"
                                 controls=""
-                                data-video-id="6387156940112"
+                                data-video-id="6388792887112"
+                                data-ad-config-id="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb3dfbGF0ZW5jeSI6dHJ1ZSwibW4iOiJwbGF5bGlzdCIsImlzcyI6ImJsaXZlLXBsYXliYWNrLW1hbmFnZW1lbnQtYXBpIiwic3ViIjoicGxheWJhY2t0b2tlbiIsImF1ZCI6WyIzNzQ1NjU5ODA3MDAxIl0sImp0aSI6IjYzODg3OTI4ODcxMTIifQ.NLm-n1EgJtwolZTHwD7i8ckCJFWq63V9YklY6nwzn68"
+                                data-live-playback-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb3dfbGF0ZW5jeSI6dHJ1ZSwibW4iOiJwbGF5bGlzdCIsImlzcyI6ImJsaXZlLXBsYXliYWNrLW1hbmFnZW1lbnQtYXBpIiwic3ViIjoicGxheWJhY2t0b2tlbiIsImF1ZCI6WyIzNzQ1NjU5ODA3MDAxIl0sImp0aSI6IjYzODg3OTI4ODcxMTIifQ.NLm-n1EgJtwolZTHwD7i8ckCJFWq63V9YklY6nwzn68"
                                 data-application-id=""
                                 width="960"
                                 height="360"
