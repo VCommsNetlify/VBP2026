@@ -8,6 +8,7 @@ import { AiFillInstagram, AiFillTwitterCircle } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 import classNames from "classnames";
+import { SiX } from "react-icons/si";
 
 export default function Home() {
     const [showTranslation, setShowTranslation] = useState(false);
@@ -106,7 +107,8 @@ export default function Home() {
                             target="_blank"
                             className="flex items-center gap-2"
                         >
-                            <AiFillTwitterCircle className="text-2xl md:text-3xl text-[#004d84]" /> 
+                            {/* Updated Icon */}
+                            <SiX className="text-xl md:text-2xl text-[#004d84]" /> 
                             <span className="text-[#004d84] italic text-base md:text-lg">@thev_official</span>
                         </Link>
                     </div>
